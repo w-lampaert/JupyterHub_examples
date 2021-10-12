@@ -17,6 +17,21 @@ python -m ipykernel install  --prefix=${VSC_HOME}/.local/ --name 'p39env'
 
 Now, the kernel should appear in your kernel list and work fine. The matplotlib package is not yet installed, but will be installed in the notebook.
 
+In the notebook, we use a locally stored pickle dataset to show that we can read from VSC_DATA. As it is too big to save ont GitHub, you can download and save it as follows (in a Python interpreter):
+```
+import os
+import pickle
+import tensorflow as tf
+
+os.chdir('jupyterHUB_examples')
+os.mkdir('py_notebook_ex')
+
+dt = tf.keras.datasets.mnist.load_data()
+with open('mnist.pickle', 'wb') as f:
+    pickle.dump(dt, f)
+```
+Now you should be able to run the notebook without any problems.
+
 
 ## R notebook
 
