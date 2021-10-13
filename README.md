@@ -38,7 +38,7 @@ Now you should be able to run the notebook without any problems.
 
 Similar as for the Python notebook, first install a R conda environment:
 
-`conda create -n r41env -c conda-forge r-base r-ggplot2 r-stats r-factoextra jupyter_client r-irkernel r-statistics`
+`conda create -n r41env -c conda-forge r-base r-ggplot2 r-factoextra jupyter_client r-irkernel`
 
 Add the kernel to your VSC_HOME/.local folder:
 
