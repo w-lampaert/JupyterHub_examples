@@ -4,7 +4,7 @@ Notebooks, databases and ppt to run examples
 ## Python notebook
 To be able to run the Python notebook, you need to install a correct conda environment yourself. In this case an environment called p39env:
 
-`conda create -n p39env python=3.9 tensorflow-gpu ipykernel ipython_genutils`
+`conda create -n p39env python=3.9 tensorflow-gpu ipykernel`
 
 Add this kernel to your VSC_HOME/.local folder:
 
