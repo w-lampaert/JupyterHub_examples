@@ -1,7 +1,5 @@
-# JupyterHUB_examples
+# JupyterHub examples
 Notebooks, databases and ppt to run examples
-
-> **_NOTE:_** This protocol assumes that VSC_DATA is the standard starting directory. At the time of writing, this is not yet the case. This can be easily circumvented by creating a symlink for VSC_DATA: https://cyberhelp.sesync.org/faq/how-to-create-a-symlink-to-research-directory-in-Jupyter-lab.html
 
 ## Python notebook
 To be able to run the Python notebook, you need to install a correct conda environment yourself. In this case an environment called p39env:
