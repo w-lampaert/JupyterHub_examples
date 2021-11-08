@@ -1,5 +1,5 @@
 # JupyterHub examples
-Notebooks, databases and ppt to run examples
+Notebooks, databases and ppt to run examples. The recorded lunchbox session can be found [here](https://kuleuven.mediaspace.kaltura.com/media/JupyterHub-LunchBox-2021-10-19/1_lxer6oid)
 
 ## Python notebook
 To be able to run the Python notebook, you need to install a correct conda environment yourself. In this case an environment called p39env:
